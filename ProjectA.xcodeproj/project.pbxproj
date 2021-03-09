@@ -13,7 +13,6 @@
 		FD10972925F7471600C015BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD10972725F7471600C015BF /* LaunchScreen.storyboard */; };
 		FDDFAF3C25F779CD00D8A8E0 /* ProjectAModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */; };
 		FDDFAF3D25F779CD00D8A8E0 /* ProjectAModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FDDFAF4925F7823900D8A8E0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +38,6 @@
 		FD10972525F7471600C015BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD10972825F7471600C015BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProjectAModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		FDDFAF5025F7832B00D8A8E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 				FD10971C25F7471200C015BF /* AppDelegate.swift */,
 				FD10972525F7471600C015BF /* Assets.xcassets */,
 				FD10972725F7471600C015BF /* LaunchScreen.storyboard */,
-				FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */,
 				FDDFAF5025F7832B00D8A8E0 /* Info.plist */,
 			);
 			path = ProjectA;
@@ -218,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDFAF4925F7823900D8A8E0 /* TestViewController.swift in Sources */,
 				FD10971D25F7471200C015BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

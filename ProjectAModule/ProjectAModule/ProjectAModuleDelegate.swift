@@ -25,8 +25,5 @@ public class ProjectAModuleDelegate {
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
 
-        print("/// vc:", rootViewController)
-        print("/// window:", window)
-        print("/// rootVC:", window?.rootViewController)
     }
 }

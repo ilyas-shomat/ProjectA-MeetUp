@@ -19,9 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         ProjectAModuleConnector.setupModule(appDelegate: self)
         
-//        window?.rootViewController = TestViewController()
-//        window?.makeKeyAndVisible()
-        
         return true
     }
 }
