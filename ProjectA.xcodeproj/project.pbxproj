@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A63827C63F2922B355750C8E /* Pods_ProjectA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E1CD3AA86E7766B97BBB10 /* Pods_ProjectA.framework */; };
 		FD10971D25F7471200C015BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD10971C25F7471200C015BF /* AppDelegate.swift */; };
-		FD10971F25F7471200C015BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD10971E25F7471200C015BF /* SceneDelegate.swift */; };
-		FD10972125F7471200C015BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD10972025F7471200C015BF /* ViewController.swift */; };
-		FD10972425F7471200C015BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD10972225F7471200C015BF /* Main.storyboard */; };
 		FD10972625F7471600C015BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD10972525F7471600C015BF /* Assets.xcassets */; };
 		FD10972925F7471600C015BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD10972725F7471600C015BF /* LaunchScreen.storyboard */; };
+		FDDFAF3C25F779CD00D8A8E0 /* ProjectAModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */; };
+		FDDFAF3D25F779CD00D8A8E0 /* ProjectAModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FDDFAF4925F7823900D8A8E0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDDFAF3E25F779CD00D8A8E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FDDFAF3D25F779CD00D8A8E0 /* ProjectAModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0660EEB3CB5CBC8BB0ED849B /* Pods-ProjectA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectA.release.xcconfig"; path = "Target Support Files/Pods-ProjectA/Pods-ProjectA.release.xcconfig"; sourceTree = "<group>"; };
@@ -22,12 +36,11 @@
 		30E1CD3AA86E7766B97BBB10 /* Pods_ProjectA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD10971925F7471200C015BF /* ProjectA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD10971C25F7471200C015BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD10971E25F7471200C015BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD10972025F7471200C015BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD10972325F7471200C015BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD10972525F7471600C015BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD10972825F7471600C015BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD10972A25F7471600C015BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProjectAModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FDDFAF5025F7832B00D8A8E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDFAF3C25F779CD00D8A8E0 /* ProjectAModule.framework in Frameworks */,
 				A63827C63F2922B355750C8E /* Pods_ProjectA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,13 +62,13 @@
 				262C1AF0EABE6C0D433BC5F3 /* Pods-ProjectA.debug.xcconfig */,
 				0660EEB3CB5CBC8BB0ED849B /* Pods-ProjectA.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		3EC572C897A8AF4CA8E74512 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDDFAF3B25F779CD00D8A8E0 /* ProjectAModule.framework */,
 				30E1CD3AA86E7766B97BBB10 /* Pods_ProjectA.framework */,
 			);
 			name = Frameworks;
@@ -82,12 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				FD10971C25F7471200C015BF /* AppDelegate.swift */,
-				FD10971E25F7471200C015BF /* SceneDelegate.swift */,
-				FD10972025F7471200C015BF /* ViewController.swift */,
-				FD10972225F7471200C015BF /* Main.storyboard */,
 				FD10972525F7471600C015BF /* Assets.xcassets */,
 				FD10972725F7471600C015BF /* LaunchScreen.storyboard */,
-				FD10972A25F7471600C015BF /* Info.plist */,
+				FDDFAF4825F7823900D8A8E0 /* TestViewController.swift */,
+				FDDFAF5025F7832B00D8A8E0 /* Info.plist */,
 			);
 			path = ProjectA;
 			sourceTree = "<group>";
@@ -104,6 +116,7 @@
 				FD10971625F7471200C015BF /* Frameworks */,
 				FD10971725F7471200C015BF /* Resources */,
 				344F53640B12D5FF901E267D /* [CP] Embed Pods Frameworks */,
+				FDDFAF3E25F779CD00D8A8E0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,7 +166,6 @@
 			files = (
 				FD10972925F7471600C015BF /* LaunchScreen.storyboard in Resources */,
 				FD10972625F7471600C015BF /* Assets.xcassets in Resources */,
-				FD10972425F7471200C015BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,23 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD10972125F7471200C015BF /* ViewController.swift in Sources */,
+				FDDFAF4925F7823900D8A8E0 /* TestViewController.swift in Sources */,
 				FD10971D25F7471200C015BF /* AppDelegate.swift in Sources */,
-				FD10971F25F7471200C015BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FD10972225F7471200C015BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD10972325F7471200C015BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FD10972725F7471600C015BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH4ADBYDUN;
 				INFOPLIST_FILE = ProjectA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RH4ADBYDUN;
 				INFOPLIST_FILE = ProjectA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
